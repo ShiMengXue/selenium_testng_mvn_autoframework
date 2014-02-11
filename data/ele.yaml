@@ -1,0 +1,25 @@
+baidu:
+  url: "http://www.baidu.com/"
+  baike:
+    id: ""
+    xpath: "//*[@id='lk']/a[1]"
+    href: "http://baike.baidu.com/"
+    text: 
+      fr: "teststring"
+      en: "百科"
+  elename2:
+    id: "name"
+    xpath: "//*[@id='account-nav']/a[1]"
+    href: "http://blog.csdn.net/poechant/article/details/7017088"
+    text: 
+      fr: "teststring"
+      en: "sdfsad"     
+baike:
+  url: "http://baike.baidu.com/"
+  news:
+    id: ""
+    xpath: "//*[@id='search-content']/p/a"
+    text: 
+      fr: "teststring {0} mb"
+      en: "新闻"
+    href: "http://news.baidu.com"

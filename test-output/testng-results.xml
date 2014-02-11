@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="280584" started-at="2014-02-10T09:40:22Z" finished-at="2014-02-10T09:45:03Z">
+    <groups>
+      <group name="functest">
+        <method signature="Test1Test.f1()[pri:0, instance:SET.test.Test1Test@25b94dbc]" name="f1" class="SET.test.Test1Test"/>
+        <method signature="Test1Test.f1()[pri:0, instance:SET.test.Test1Test@289e84fd]" name="f1" class="SET.test.Test1Test"/>
+        <method signature="Test1Test.f1()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="f1" class="SET.test.Test1Test"/>
+        <method signature="Test1Test.f2()[pri:0, instance:SET.test.Test1Test@25b94dbc]" name="f2" class="SET.test.Test1Test"/>
+        <method signature="Test1Test.f2()[pri:0, instance:SET.test.Test1Test@289e84fd]" name="f2" class="SET.test.Test1Test"/>
+        <method signature="Test1Test.f2()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="f2" class="SET.test.Test1Test"/>
+      </group> <!-- functest -->
+      <group name="checkintest">
+        <method signature="Test1Test.f1()[pri:0, instance:SET.test.Test1Test@25b94dbc]" name="f1" class="SET.test.Test1Test"/>
+        <method signature="Test1Test.f1()[pri:0, instance:SET.test.Test1Test@289e84fd]" name="f1" class="SET.test.Test1Test"/>
+        <method signature="Test1Test.f1()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="f1" class="SET.test.Test1Test"/>
+        <method signature="Test1Test.f2()[pri:0, instance:SET.test.Test1Test@25b94dbc]" name="f2" class="SET.test.Test1Test"/>
+        <method signature="Test1Test.f2()[pri:0, instance:SET.test.Test1Test@289e84fd]" name="f2" class="SET.test.Test1Test"/>
+        <method signature="Test1Test.f2()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="f2" class="SET.test.Test1Test"/>
+      </group> <!-- checkintest -->
+    </groups>
+    <test name="Default test" duration-ms="280584" started-at="2014-02-10T09:40:22Z" finished-at="2014-02-10T09:45:03Z">
+      <class name="SET.test.Test1Test">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="beforeClass" is-config="true" duration-ms="35" started-at="2014-02-10T17:40:22Z" finished-at="2014-02-10T17:40:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="beforeMethod" is-config="true" duration-ms="27869" started-at="2014-02-10T17:40:22Z" finished-at="2014-02-10T17:40:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:SET.test.Test1Test@25b94dbc]" name="f1" duration-ms="8002" started-at="2014-02-10T17:40:50Z" finished-at="2014-02-10T17:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="afterMethod" is-config="true" duration-ms="748" started-at="2014-02-10T17:40:58Z" finished-at="2014-02-10T17:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="beforeClass" is-config="true" duration-ms="3" started-at="2014-02-10T17:40:59Z" finished-at="2014-02-10T17:40:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="beforeMethod" is-config="true" duration-ms="16106" started-at="2014-02-10T17:40:59Z" finished-at="2014-02-10T17:41:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:SET.test.Test1Test@289e84fd]" name="f1" duration-ms="5238" started-at="2014-02-10T17:41:15Z" finished-at="2014-02-10T17:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="afterMethod" is-config="true" duration-ms="678" started-at="2014-02-10T17:41:20Z" finished-at="2014-02-10T17:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="beforeClass" is-config="true" duration-ms="2" started-at="2014-02-10T17:41:21Z" finished-at="2014-02-10T17:41:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="beforeMethod" is-config="true" duration-ms="24840" started-at="2014-02-10T17:41:21Z" finished-at="2014-02-10T17:41:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f1()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="f1" duration-ms="9240" started-at="2014-02-10T17:41:46Z" finished-at="2014-02-10T17:41:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="afterMethod" is-config="true" duration-ms="726" started-at="2014-02-10T17:41:55Z" finished-at="2014-02-10T17:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="beforeMethod" is-config="true" duration-ms="17255" started-at="2014-02-10T17:41:56Z" finished-at="2014-02-10T17:42:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:SET.test.Test1Test@25b94dbc]" name="f2" duration-ms="21744" started-at="2014-02-10T17:42:13Z" finished-at="2014-02-10T17:42:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="afterMethod" is-config="true" duration-ms="766" started-at="2014-02-10T17:42:35Z" finished-at="2014-02-10T17:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="afterClass" is-config="true" duration-ms="0" started-at="2014-02-10T17:42:36Z" finished-at="2014-02-10T17:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="beforeMethod" is-config="true" duration-ms="26368" started-at="2014-02-10T17:42:36Z" finished-at="2014-02-10T17:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:SET.test.Test1Test@289e84fd]" name="f2" duration-ms="62249" started-at="2014-02-10T17:43:02Z" finished-at="2014-02-10T17:44:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="afterMethod" is-config="true" duration-ms="841" started-at="2014-02-10T17:44:04Z" finished-at="2014-02-10T17:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="beforeMethod" is-config="true" duration-ms="25724" started-at="2014-02-10T17:44:05Z" finished-at="2014-02-10T17:44:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="afterClass" is-config="true" duration-ms="0" started-at="2014-02-10T17:44:05Z" finished-at="2014-02-10T17:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="f2()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="f2" duration-ms="31381" started-at="2014-02-10T17:44:31Z" finished-at="2014-02-10T17:45:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f2 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="afterMethod" is-config="true" duration-ms="754" started-at="2014-02-10T17:45:02Z" finished-at="2014-02-10T17:45:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:SET.test.Test1Test@3f2d12e0]" name="afterClass" is-config="true" duration-ms="0" started-at="2014-02-10T17:45:03Z" finished-at="2014-02-10T17:45:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- SET.test.Test1Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
