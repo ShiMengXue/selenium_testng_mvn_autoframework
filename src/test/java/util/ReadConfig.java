@@ -23,7 +23,7 @@ public class ReadConfig {
 		Properties props = new Properties();
 		try {
 			InputStream in = new BufferedInputStream(new FileInputStream(
-					"E:\\workapace-ccm-ui\\test\\defaultConfigurationValues"));
+					"defaultConfigurationValues"));
 			props.load(in);
 			Enumeration en = props.propertyNames();
 			while (en.hasMoreElements()) {

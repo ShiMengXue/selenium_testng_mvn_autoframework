@@ -9,6 +9,7 @@
           <include name="afterMethod"/>
           <include name="afterClass"/>
           <include name="f2"/>
+          <include name="f2"/>
           <include name="beforeClass"/>
         </methods>
       </class> <!-- SET.test.Test1Test -->

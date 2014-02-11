@@ -21,8 +21,8 @@ public class Test1Test {
 	public Properties props;
 	public long default_timeout;
 
-	@Factory(dataProviderClass = util.ReadConfig.class, dataProvider ="configureRun")
-	public Test1Test(String userName,String password) {
+	@Factory(dataProviderClass = util.ReadConfig.class, dataProvider = "configureRun")
+	public Test1Test(String userName, String password) {
 		System.out.println("----------@@Factory-----------");
 	}
 
@@ -43,7 +43,7 @@ public class Test1Test {
 		System.out.println("----@BeforeMethod----");
 	}
 
-	@Test(enabled = true, groups = { "functest", "checkintest" })
+	@Test(enabled = true, groups = { "f1", "checkintest" })
 	public void f1() {
 		driver.get(database.getPageUrl("baidu"));
 		assertEquals(
@@ -52,7 +52,7 @@ public class Test1Test {
 		System.out.println("----------f1------------");
 	}
 
-	@Test(enabled = true, groups = { "functest", "checkintest" })
+	@Test(enabled = true, groups = { "f2", "checkintest" })
 	public void f2() {
 		driver.get(database.getPageUrl("baidu"));
 		driver.findElement(database.getPageEleXpathBy("baidu", "baike"))
@@ -65,7 +65,7 @@ public class Test1Test {
 		driver.findElement(database.getPageEleXpathBy("baike", "news")).click();
 		System.out.println("----------f2------------");
 	}
-	
+
 	@AfterMethod
 	public void afterMethod() {
 		driver.quit();

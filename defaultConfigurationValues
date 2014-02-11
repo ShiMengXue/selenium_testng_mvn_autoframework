@@ -3,6 +3,6 @@ feature_set=
 platform=win
 browser=firefox
 language=en
-testng_groups=
+testng_groups=f1
 implicit_timeout_seconds=5
 keep_browser_open=false

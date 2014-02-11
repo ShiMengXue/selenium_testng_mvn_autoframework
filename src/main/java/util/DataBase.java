@@ -23,7 +23,7 @@ public class DataBase {
 		this.language = language;
 		try {
 			hmap = Yaml.loadType(new FileInputStream(new File(
-					"E:/workapace-ccm-ui/test/data/ele.yaml")), HashMap.class);
+					"data/ele.yaml")), HashMap.class);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
