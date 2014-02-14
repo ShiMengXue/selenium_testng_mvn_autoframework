@@ -1,10 +1,15 @@
 package SET.test;
 
 import static org.testng.AssertJUnit.assertEquals;
-
+import java.io.File;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Factory;
 import org.testng.annotations.Test;
@@ -76,6 +81,17 @@ public class Test2Test {
 		driver.waitForElementVisible(
 				database.getPageEleXpathBy("baike", "news"), default_timeout);
 		driver.findElement(database.getPageEleXpathBy("baike", "news")).click();
+		try {
+			File scrnsht = ((TakesScreenshot) driver)
+					.getScreenshotAs(OutputType.FILE);
+			Date date = new Date();
+			SimpleDateFormat dateformat = new SimpleDateFormat("yyyyMMddHHmm");
+			String sDateSuffix = dateformat.format(date);
+			System.out.println(sDateSuffix);
+			FileUtils.copyFile(scrnsht, new File("E:\\screenshots_test\\"+sDateSuffix+"\\1.png"));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		System.out.println("----------f2------------");
 	}
 
